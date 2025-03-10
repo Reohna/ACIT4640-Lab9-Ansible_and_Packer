@@ -19,8 +19,8 @@ source "amazon-ebs" "ubuntu" {
   ami_name      = "packer-ansible-nginx"
   instance_type = "t2.micro"
   region        = "us-west-2"
-  vpc_id        = "vpc-0f43bffe5fb929b0d"
-  subnet_id     = "subnet-07bff7766538fef80"
+  vpc_id        = <put your vpc id here>
+  subnet_id     = <put your subnet id here>
   associate_public_ip_address = true
 
   source_ami_filter {

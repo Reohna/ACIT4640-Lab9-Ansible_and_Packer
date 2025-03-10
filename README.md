@@ -1,1 +1,3 @@
-# ACIT4640-Lab9-Ansible_and_Packer
+# 4640-w9-lab-start-w25
+
+See lab instructions on D2L
